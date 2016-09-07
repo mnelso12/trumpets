@@ -1,0 +1,410 @@
+body {
+	margin-top: 0px; 
+	margin-bottom: 0px; 
+	margin-left: 0px; 
+	margin-right: 0px;
+	padding: 0;
+	background-color: #002649;
+	min-width: 750px;
+}
+
+/* Nav Bar */
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: transparent;
+}
+
+li {
+	float: left;
+}
+
+li .nav-icon a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 15px 20px 15px 0px;
+	text-decoration: none;
+	color: white;
+	font-size: 18px;
+	font-family: 'lato', sans-serif;
+}
+
+ul li .nav-icon a:hover {
+	background-color: transparent;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 15px 20px;
+	text-decoration: none;
+	color: white;
+	font-size: 18px;
+	font-family: 'lato', sans-serif;
+}
+
+li img {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 10px 20px 10px 20px;
+}
+
+ul li a:hover {
+	background-color: #193b5b;
+}
+
+ul .active{
+	background-color: #32516d;
+}
+
+
+
+/* Academics Pie Chart */
+circle, path {
+	cursor: pointer;
+}
+
+circle {
+	fill: none;
+	pointer-events: all;
+}
+
+#tooltip { background-color: #ccd3da;
+padding: 3px 5px;
+border-radius: 10px;
+border: 1px solid white;
+		text-align: center;}
+
+		html {
+			font-family: 'Lato', sans-serif;
+
+		}
+
+/* globe */ 
+.water {
+fill: #66ffff;
+}
+
+.land {
+fill: #ccff99;
+stroke: #009999;
+		stroke-width: 0.7px;
+}
+
+.visitedLand {
+fill: purple;
+stroke: #009999;
+		stroke-width: 0.7px;
+}
+
+.land:hover {
+fill: #8cff1a;
+	 stroke-width: 1px;
+}
+
+.focused {
+fill: #33CC33;
+}
+
+select {
+position: absolute;
+top: 20px;
+left: 580px;
+border: solid #ccc 1px;
+padding: 3px;
+		 box-shadow: inset 1px 1px 2px #ddd8dc;
+}
+
+.countryTooltip {
+position: absolute;
+display: none;
+		 pointer-events: none;
+background: #fff;
+padding: 5px;
+		 text-align: left;
+border: solid #ccc 1px;
+color: #666;
+	   font-size: 14px;
+	   font-family: sans-serif;
+}
+
+
+.fixed-bg {
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+	position: absolute;
+	background-image: url(../media/trumpetsInDome2.jpg);
+	width:100%;
+	height: 400px;
+	min-height: 120px;
+	background-repeat: no-repeat;
+}
+
+.trumpetsInDomeLink {
+	color: white;
+	font-size: 32px;
+	font-family: 'Lato', sans-serif;
+	font-weight: bold;
+	position: absolute;
+	display: table;
+	text-align: right;
+	width: 100%;
+	bottom: 140px;
+} 
+
+.notreDameTrumpetsTitle {
+	color:white;
+	font-size:84px;
+	font-family: 'Lato', sans-serif;
+	font-weight: bold;
+	position: absolute;
+	display: table;
+	text-align:center;
+	width: 100%;
+	top: 280px;
+	/*bottom: 230px;*/
+} 
+
+.notreDameCopyright {
+	max-height: 250px;
+	font-family: 'Lato', sans-serif;
+	color: #ccd3da; 
+	font-size: 22px; 
+	text-align: center;
+}
+
+.staticInfoTable {
+	max-height: 250px;
+	vertical-align: top;
+	font-family: 'Lato', sans-serif;
+	color: #009959; 
+	text-align: center;
+}
+
+.homeNavBarDivStyle {
+	font-family: 'Lato', sans-serif;
+	background-color: transparent;
+	height: 300px; 
+	position: relative; 
+	top: 420px;
+}
+
+.homeNavBarTableCellPlayers {
+	background-color:#193b5b;
+	width: 20%; 
+	height: 160px;
+	border: 2px solid;
+	border-radius: 10px;
+	border-color: transparent;
+	color: #ccd3da;
+	text-align: center;
+	font-size: 28px;
+}
+
+.homeNavBarTableCellStats {
+	background-color:#193b5b;
+	width: 20%; 
+	height: 160px;
+	border: 2px solid;
+	border-radius: 10px;
+	border-color: transparent;
+	color: #ccd3da;
+	text-align: center;
+	font-size: 28px;
+}
+
+.homeNavBarTableCellFun {
+	background-color:#193b5b;
+	width: 20%; 
+	height: 160px;
+	border: 2px solid;
+	border-radius: 10px;
+	border-color: transparent;
+	color: #ccd3da;
+	text-align: center;
+	font-size: 28px;
+}
+
+.homeNavBarTableCellSeeUs {
+	background-color:#193b5b;
+	width: 20%; 
+	height: 160px;
+	border: 2px solid;
+	border-radius: 10px;
+	border-color: transparent;
+	color: #ccd3da;
+	text-align: center;
+	font-size: 28px;
+}
+
+.homeNavBarTableCellPlayers:hover {
+	background: url(../media/michellePlaying.jpg) center no-repeat;
+	background-size: cover;
+	color: white;
+	border: 2px solid;
+	border-radius: 10px;
+	border-color: transparent;
+	opacity: .45;
+	filter: alpha(opacity=30);
+	-webkit-transition: opacity 0.5s linear;
+}
+
+.homeNavBarTableCellStats:hover {
+	background: url(../media/bandDanceSilly2016.jpg) center no-repeat;
+	background-size: cover;
+	color: white;
+	border: 2px solid;
+	border-radius: 10px;
+	border-color: transparent;
+	opacity: .45;
+	filter: alpha(opacity=30);
+	-webkit-transition: opacity 0.5s linear;
+}
+
+.homeNavBarTableCellFun:hover {
+	background: url(../media/GraceNicolePhoenix.jpg) center no-repeat;
+	background-size: cover;
+	color: white;
+	border: 2px solid;
+	border-radius: 10px;
+	border-color: transparent;
+	opacity: .45;
+	filter: alpha(opacity=30);
+	-webkit-transition: opacity 0.5s linear;
+}
+
+.homeNavBarTableCellSeeUs:hover {
+	background: url(../media/marchoutSaba.jpg) center no-repeat;
+	background-size: cover;
+	color: white;
+	border: 2px solid;
+	border-radius: 10px;
+	border-color: transparent;
+	opacity: .45;
+	filter: alpha(opacity=30);
+	-webkit-transition: opacity 0.5s linear;
+}
+
+.trumpetTreeDiv {
+	/*
+	background-color: green;
+	opacity: .25;
+	filter: alpha(opacity=30);
+	-webkit-transition: opacity 0.5s linear;
+	*/
+}
+
+.trumpetTreeText {
+	opacity: .99;
+	font-size:34px;
+	width: 67%;
+	margin: 20px 40px 40px 40px;
+	vertical-align: middle;
+	font-family: 'Lato', sans-serif;
+	font-weight: bold;
+	color: white;
+}
+
+.followUsDiv {
+ position: relative; 
+ top: 0px; 
+ height:200px; 
+}
+
+.smallerHeaderTitle {
+	color: white;
+	font-size: 28px;
+	margin: 10px 40px 10px 40px;
+	vertical-align: middle;
+	text-align: left;
+	font-family: 'Lato', sans-serif;
+	font-weight: normal;
+}
+
+.smallerHeader {
+	color: white;
+	font-size: 22px;
+	margin: 10px 40px 10px 40px;
+	vertical-align: middle;
+	text-align: left;
+	font-family: 'Lato', sans-serif;
+	font-weight: normal;
+}
+
+.statsSmallHeader {
+/*
+	color: #ccd3da;
+*/
+	color: white;
+	font-size: 28px;
+	margin: 10px 10px 10px 10px;
+	vertical-align: middle;
+	font-family: 'Lato', sans-serif;
+	font-weight: normal;
+}
+
+.playersHeaderBiggest {
+	color: #009959;
+	font-size: 96px;
+	margin: 370px 40px 40px 40px;
+	vertical-align: middle;
+	font-family: 'Lato', sans-serif;
+	font-weight: bold;
+}
+
+.funHeaderBiggest {
+	color: white;
+	font-size: 96px;
+	margin: 370px 40px 40px 40px;
+	vertical-align: middle;
+	font-family: 'Lato', sans-serif;
+	font-weight: bold;
+}
+
+.statsHeaderBiggest {
+	color: white;
+	font-size: 96px;
+	margin: 20px 40px 40px 40px;
+	vertical-align: middle;
+	font-family: 'Lato', sans-serif;
+	font-weight: bold;
+}
+
+.statsHeaderBig {
+	color: white;
+	font-size: 70px;
+	margin: 40px 40px 40px 40px;
+	vertical-align: middle;
+	font-family: 'Lato', sans-serif;
+	font-weight: bold;
+}
+
+
+.navyOverlay {
+	opacity: .8;
+	background-color: #002649;
+}
+
+.followUsText {
+	color: #ccd3da;
+	font-size:70px;
+	margin: 40px 40px 40px 40px;
+	vertical-align: middle;
+	font-family: 'Lato', sans-serif;
+	font-weight: bold;
+}
+
+.followUsTextSmaller {
+	color: #ccd3da;
+	font-size:38px;
+	margin: 40px 40px 40px 40px;
+	vertical-align: middle;
+	font-family: 'Lato', sans-serif;
+	font-weight: bold;
+}

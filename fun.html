@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link href="styles/backgroundStyle.css" rel="stylesheet"></link>
+<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Lato">
+<script src="http://d3js.org/d3.v3.min.js"></script>
+<script src="http://d3js.org/topojson.v1.min.js"></script>
+<script src="http://d3js.org/queue.v1.min.js"></script>
+</head>
+
+<body style="background-color: #002649">
+
+<!-- Nav Bar -->
+<ul class="nav" id="nav">
+<li><img src="media/whiteND.png" alt="Mountain View" style="width:32px;height:32px;"></li> 
+<li><span class="nav-icon"><a href="#">Trumpets</a></span></li>
+<li><a href="index.html">Home</a></li>
+<li><a href="players.html">Players</a></li>
+<li><a href="stats2.html">Stats</a></li>
+<li><a class="active" href="fun.html">Fun</a></li>
+<li><a href="seeUs.html">Tradition</a></li>
+<li><a href="seeUs.html">See Us</a></li>
+<li style="float:right;"><a href="#">Trumpets in the Dome</a></li>
+</ul>
+    
+
+
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<script type="text/javascript" src="scripts/googlePieCharts.js"></script>
+
+<!-- Stats Title -->
+<!--<div class="navyOverlay"-->
+<div
+	style="height: 550px; width: 100%;
+	text-align:center;
+	background-image: url('media/trumpetCaroling1.jpg');
+	background-size: cover;
+    background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+">
+<br>
+<h3 class="funHeaderBiggest" align="center">No Fun in Band?</h3>
+</div>
+
+
+<!-- Hometowns -->
+<div style="width: 100%; ">
+<br>
+<h3 class="staticInfoTable" align="center" 
+	style="
+	color: #009959;
+	font-size: 32px;
+	text-align: center;
+	padding: 40px 100px 0px 100px;
+">Trumpets always win blah blah blah trombones eat dicks
+blah blah blah blah blah
+blah blah blah blah blah
+blah blah blah blah blah
+blah blah blah blah blah
+</h3>
+<h3 class="staticInfoTable" align="center" 
+	style="
+	color: #009959;
+	font-size: 32px;
+	text-align: center;
+	padding: 20px 100px 40px 100px;
+">Trumpets always win blah blah blah trombones eat dicks
+blah blah blah blah blah
+blah blah blah blah blah
+blah blah blah blah blah
+blah blah blah blah blah
+</h3>
+</div>
+
+
+<!-- World Travels -->
+<div style="width: 100%; height: 800px; background-image: url('media/lauraHayride.jpg');
+	background-size: cover;
+    background-repeat: no-repeat;
+	background-position: center;
+">
+<br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
+<br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
+<br> <br> <br>
+</div>
+
+<h3 class="statsHeaderBig" align="center" 
+	style="
+	color: white;
+">Thistleberry Farm</h3>
+<h3 class="staticInfoTable" align="center" 
+	style="
+	color: #009959;
+	font-size: 32px;
+	text-align: center;
+	padding: 20px 100px 40px 100px;
+">Trumpets always win blah blah blah trombones eat dicks
+blah blah blah blah blah
+blah blah blah blah blah
+blah blah blah blah blah
+blah blah blah blah blah
+blah blah blah blah blah
+blah blah blah blah blah
+</h3>
+<div style="width: 100%; height: 800px; background-image: url('media/thistleberry2015.jpg');
+	background-size: cover;
+    background-repeat: no-repeat;
+	background-position: center;
+">
+</div>
+
+
+
+
+<div style="">
+<h3 class="statsHeaderBig" align="center" 
+	style="
+	color: white;
+	margins: 20px 20px 20px 20px;
+">Trumpet Football</h3>
+</div>
+
+
+<div style="width: 100%; height: 800px; background-image: url('media/trumpetFootballGroup.jpg');
+	background-size: cover;
+    background-repeat: no-repeat;
+	background-position: center;
+">
+<br>
+<br>
+<br>
+<h3 class="staticInfoTable" align="center" 
+	style="
+	color: #cfb53b;
+	font-size: 32px;
+	text-align: center;
+	padding: 20px 100px 0px 100px;
+">Trumpets always win blah blah blah trombones eat dicks
+blah blah blah blah blah
+blah blah blah blah blah
+blah blah blah blah blah
+blah blah blah blah blah
+</h3>
+</div>
+
+
+
+<div style="">
+<h3 class="statsHeaderBig" align="center" 
+	style="
+	color: white;
+	margins: 20px 20px 20px 20px;
+">we're pretty awesome</h3>
+</div>
+
+
+
+<div style="width: 100%; height: 800px; background-image: url('media/trumpetFootball2.jpg');
+	background-size: cover;
+    background-repeat: no-repeat;
+	background-position: center;
+">
+<br>
+<br>
+<br>
+<h3 class="staticInfoTable" align="center" 
+	style="
+	color: #002649;
+	font-size: 32px;
+	text-align: center;
+	padding: 20px 100px 0px 100px;
+">Trumpets always win blah blah blah trombones eat dicks
+blah blah blah blah blah
+blah blah blah blah blah
+blah blah blah blah blah
+blah blah blah blah blah
+blah blah blah blah blah
+blah blah blah blah blah
+blah blah blah blah blah
+</h3>
+</div>
+
+
+
+<div style="">
+<h3 class="statsHeaderBig" align="center" 
+	style="
+	color: white;
+	margins: 20px 20px 20px 20px;
+">pretty darn incredible</h3>
+</div>
+
+
+<div style="width: 100%; height: 550px; background-image: url('media/incredibles.jpg');
+	background-size: cover;
+    background-repeat: no-repeat;
+	background-position: center;
+">
+<br>
+<br>
+<br>
+<h3 class="staticInfoTable" align="center" 
+	style="
+	color: #002649;
+	font-size: 32px;
+	text-align: center;
+	padding: 20px 100px 0px 100px;
+">
+</h3>
+</div>
+
+
+
+<div style="">
+<h3 class="statsHeaderBig" align="center" 
+	style="
+	color: white;
+	margins: 20px 20px 20px 20px;
+">objectively the best</h3>
+</div>
+
+
+
+
+<div style="width: 100%; height: 800px; background-image: url('media/thistleberryJumping.jpg');
+	background-size: cover;
+    background-repeat: no-repeat;
+	background-position: center;
+">
+<br>
+<br>
+<br>
+<h3 class="staticInfoTable" align="center" 
+	style="
+	color: #002649;
+	font-size: 32px;
+	text-align: center;
+	padding: 20px 100px 0px 100px;
+">
+</h3>
+</div>
+
+
+<div style="">
+<h3 class="statsHeaderBig" align="center" 
+	style="
+	color: white;
+	margins: 20px 20px 20px 20px;
+">New York City</h3>
+</div>
+
+
+
+<div style="width: 100%; height: 700px; background-image: url('media/empireState.jpg');
+    background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+">
+</div>
+
+
+<div style="">
+<h3 class="statsHeaderBig" align="center" 
+	style="
+	color: white;
+	margins: 20px 20px 20px 20px;
+">...but first, we shall dance</h3>
+</div>
+
+
+
+<div style="width: 100%; height: 700px; background-image: url('media/bandDanceJuniors2015.jpg');
+    background-repeat: no-repeat;
+	background-position: center;
+">
+</div>
+
+
+<div style="">
+<h3 class="statsHeaderBig" align="center" 
+	style="
+	color: white;
+	margins: 20px 20px 20px 20px;
+">...but first, we shall dance</h3>
+</div>
+
+
+
+<div style="width: 100%; height: 800px; background-image: url('media/pregame2015.jpg');
+	background-size: cover;
+    background-repeat: no-repeat;
+	background-position: center;
+">
+<br>
+<br>
+<br>
+<h3 class="staticInfoTable" align="center" 
+	style="
+	color: #009959;
+	font-size: 32px;
+	text-align: center;
+	padding: 540px 100px 0px 100px;
+">Trumpets always win blah blah blah trombones eat dicks
+blah blah blah blah blah
+blah blah blah blah blah
+blah blah blah blah blah
+blah blah blah blah blah
+</h3>
+</div>
+
+<div style="height: 500px;">
+</div>
+
+
+<!-- Musical Background -->
+<div class="navyOverlay" 
+	style="background-image: url('media/namsPhoenix.jpg');
+	background-size: cover;
+    background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+    ">
+<br>
+<h3 class="statsHeaderBig" align="center" style="text-align:center; height: 500px; width: 100%;">Blah blah blah</h3>
+</div>
+
+
+<br>
+<h2 class="notreDameCopyright">&copy; Notre Dame Trumpets 2017</h2>
+<!--
+<h2 class="staticInfoTable">Notre Dame Bands</h2>
+<h2 class="staticInfoTable">University of Notre Dame</h2>
+-->
+<br>
+</div>
