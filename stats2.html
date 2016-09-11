@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link href="styles/backgroundStyle.css" rel="stylesheet"></link>
+<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Lato">
+<script src="http://d3js.org/d3.v3.min.js"></script>
+<script src="http://d3js.org/topojson.v1.min.js"></script>
+<script src="http://d3js.org/queue.v1.min.js"></script>
+</head>
+
+<body style="background-color: #002649">
+
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<script type="text/javascript" src="scripts/googlePieCharts.js"></script>
+
+<!-- Nav Bar -->
+<ul class="nav" id="nav">
+<li><img src="media/whiteND.png" alt="Mountain View" style="width:32px;height:32px;"></li> 
+<li><span class="nav-icon"><a href="#">Trumpets</a></span></li>
+<li><a href="index.html">Home</a></li>
+<li><a href="players.html">Players</a></li>
+<li><a class="active" href="stats2.html">Stats</a></li>
+<li><a href="fun.html">Fun</a></li>
+<li><a href="tradition.html">Tradition</a></li>
+<li><a href="seeUs.html">See Us</a></li>
+<li style="float:right;"><a href="#">Trumpets in the Dome</a></li>
+</ul>
+
+<!-- Stats Title -->
+<!--<div class="navyOverlay"--> 
+<div 
+	style="height: 550px; width: 100%;
+	text-align:center;
+	background-image: url('media/ezraDunes.jpg');
+	background-size: cover;
+    background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+">
+<br>
+<h3 class="statsHeaderBiggest" align="center">Statistics</h3>
+</div>
+
+<!-- Grand Total -->
+<div style="height: 550px; width: 100%; ">
+<br>
+<h3 class="statsHeaderBig" align="center">Grand total: 84</h3>
+<h3 class="staticInfoTable" align="center" 
+	style="
+	color: #009959;
+	font-size: 32px;
+	text-align: center;
+	padding: 0px 100px 0px 40px;
+">Trumpets always win blah blah blah trombones eat dicks
+blah blah blah blah blah
+blah blah blah blah blah
+blah blah blah blah blah
+blah blah blah blah blah
+blah blah blah blah blah
+blah blah blah blah blah
+blah blah blah blah blah
+</h3>
+<h3 class="staticInfoTable" align="center" 
+	style="
+	color: #009959;
+	font-size: 32px;
+	text-align: center;
+	padding: 0px 40px 0px 40px;
+">Trumpets always win blah blah blah trombones eat dicks
+blah blah blah blah blah
+blah blah blah blah blah
+blah blah blah blah blah
+blah blah blah blah blah
+blah blah blah blah blah
+</h3>
+</div>
+
+<!-- Hometowns -->
+<div style="height: 550px; width: 100%; ">
+<br>
+<h3 class="statsHeaderBig" align="center">Our Hometowns</h3>
+</div>
+
+
+<!-- World Travels -->
+<div style="width: 100%;" class="globeDiv" id="globeDiv">
+<h3 class="statsHeaderBig" align="center" style="margin-bottom: 0px;">Collegiate World Travels</h3>
+<script src="scripts/globe.js"></script>
+<p style="
+	position: absolute;
+	top: 1300px;
+	bottom: 20px; 
+	right: 7%;
+	width: 35%;
+	height: 600px;
+	color: #ccd3da; 
+	text-align: right;
+	font-size: 34px;
+">
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam nibh. Nunc varius facilisis eros. Sed erat. In in velit quis arcu ornare laoreet. Curabitur adipiscing luctus massa. Integer ut purus ac augue commodo commodo. Nunc nec mi eu justo tempor consectetuer.
+</p>
+</div>
+
+
+
+<!-- Musical Background -->
+<div class="navyOverlay" 
+	style="background-image: url('media/trumpetTree3.jpg');
+	background-size: cover;
+    background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+    ">
+<br>
+<h3 class="statsHeaderBig" align="center" style="text-align:center;">Our Music Background</h3>
+
+<table style="margins: 20px 20px 20px 20px;">
+	<tr>
+		<td w align="center" idth="33%" style="border-spacing: 15px; text-align: center;">
+			<h4 class="statsSmallHeader">Previous Marching Experience</h4>
+			<div  align="center" id="piechart_3d" align="center" style="width 300px; height: 167px;"></div>
+		</td>
+		<td w align="center" idth="33%" style="border-spacing: 15px; text-align: center;">
+			<h4 class="statsSmallHeader">Plays Another Instrument</h4>
+			<div  align="center" id="piechart_3d_2" align="center" style="width 300px; height: 167px;"></div>
+		</td>
+		<td w align="center" idth="33%" style="border-spacing: 15px; text-align: center;">
+			<h4 class="statsSmallHeader">Involved in Non-Band Club(s)</h4>
+			<div  align="center" id="piechart_3d_3" align="center" style="width 300px; height: 167px;"></div>
+		</td>
+	</tr>
+	<tr>
+		<td w align="center" idth="33%" style="border-spacing: 15px; text-align: center;">
+			<h4 class="statsSmallHeader">Involved in Service</h4>
+			<div  align="center" id="service_pie" align="center" style="width 300px; height: 167px;"></div>
+		</td>
+		<td w align="center" idth="33%" style="border-spacing: 15px; text-align: center;">
+			<h4 class="statsSmallHeader">Involved in Other Musical Ensembles</h4>
+			<div  align="center" id="ensembles_pie" align="center" style="width 300px; height: 167px;"></div>
+		</td>
+		<td w align="center" idth="33%" style="border-spacing: 15px; text-align: center;">
+			<h4 class="statsSmallHeader">Holds a Leadership Position</h4>
+			<div  align="center" id="leadership_pie" align="center" style="width 300px; height: 167px;"></div>
+		</td>
+	</tr>
+</table>
+<br>
+<br>
+<br>
+</div>
+
+<!-- Academics Pie Chart -->
+<br>
+<h3 class="followUsText" align="center" style="text-align:center;">Our Academics</h3>
+<script src="scripts/stats.js"></script> 
+
+<!-- USA Map -->
+
+
+
+<br>
+<h2 class="notreDameCopyright">&copy; Notre Dame Trumpets 2017</h2>
+<!--
+<h2 class="staticInfoTable">Notre Dame Bands</h2>
+<h2 class="staticInfoTable">University of Notre Dame</h2>
+-->
+<br>
+</div>
