@@ -22,7 +22,7 @@
 </ul>
     
 
-<div id="header" align="center" class="fixed-bg">
+<div id="header" align="center" class="fixed-bg" onclick="window.open('trumpetsInTheDome.html')">
 </div>
 <!--
 <h1 align="right">Trumpets in the Dome</h1>
@@ -39,7 +39,10 @@
 		</td>
 		<td
 	style="
+	/*
 	color: #009959;
+	*/
+	color: mediumAquaMarine; 
 	font-size: 24px;
 	text-align: center;"
 		>
@@ -51,7 +54,10 @@
 		</td>
 		<td
 	style="
+	/*
 	color: #009959;
+	*/
+	color: mediumAquamarine; 
 	font-size: 24px;
 	text-align: center;"
 		>
@@ -70,23 +76,23 @@
 <div align=center class="homeNavBarDivStyle" style="width: 100%; position: absolute; height: 600px; top: 710px;">
 	<table class="homeNavBar" style="border-spacing: 10px; width:100%;">
 		<tr>
-		<td onclick="window.location='players.html'" class="homeNavBarTableCellPlayers">
+		<td id="playersCell" onclick="window.location='players.html'" class="homeNavBarTableCellPlayers">
 			<h3 style="opacity:initial;" id="homePlayersButton">Players
 			</h3>
 		</td>
-		<td onclick="window.location='stats2.html'"class="homeNavBarTableCellStats">
+		<td id="statsCell" onclick="window.location='stats2.html'"class="homeNavBarTableCellStats">
 			<h3 id="homeStatsButton">Stats
 			</h3>
 		</td>
-		<td onclick="window.location='fun.html'" class="homeNavBarTableCellFun">
+		<td id="funCell" onclick="window.location='fun.html'" class="homeNavBarTableCellFun">
 			<h3 id="homeFunButton">Fun
 			</h3>
 		</td>
-		<td onclick="window.location='tradition.html'" class="homeNavBarTableCellSeeUs">
+		<td id="traditionCell" onclick="window.location='tradition.html'" class="homeNavBarTableCellSeeUs">
 			<h3 id="traditionButton">Tradition
 			</h3>
 		</td>
-		<td onclick="window.location='seeus.html'" class="homeNavBarTableCellSeeUs">
+		<td id="seeUsCell" onclick="window.location='seeus.html'" class="homeNavBarTableCellSeeUs">
 			<h3 id="homeSeeUsButton">See Us
 			</h3>
 		</td>
@@ -95,13 +101,169 @@
 </div>
 
 
-<div style="
+<!-- chunck that changes -->
+<div id="seeUsInfo"
+style="
 padding: 0px 40px 0px 40px; position: absolute; top: 940px; height: 400px;">
 <table style="width: 100%;">
 	<tr style="height: 300px;">
 		<td style="
 		border-radius: 10px 0px 0px 10px;
-		width: 50%; background-color: #009959;">
+		width: 50%; 
+		/*
+		background-color: #009959;
+		*/
+		background-color: gray;
+		">
+			<h3 class="smallerHeaderTitle">
+				We Perform... A Lot
+			</h3>
+			<br>
+			<h3 class="smallerHeader">
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+			</h3>
+			<h3 class="smallerHeader">
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt  
+			</h3>
+		</td>
+		<td style="
+		border-radius: 0px 10px 10px 0px;
+		width: 50%;">
+			<img align=right src="media/namsPhoenix.jpg" alt="Dunes2016" style="
+			width: 100%;
+			height: auto;
+			border-radius: 0px 10px 10px 0px;
+			"> 
+		</td>
+	</tr>
+</table>
+</div>
+
+<div id="traditionInfo"
+style="
+padding: 0px 40px 0px 40px; position: absolute; top: 940px; height: 400px;">
+<table style="width: 100%;">
+	<tr style="height: 300px;">
+		<td style="
+		border-radius: 10px 0px 0px 10px;
+		width: 50%; 
+		/*
+		background-color: #009959;
+		*/
+		background-color: darkSlateBlue;
+		">
+			<h3 class="smallerHeaderTitle">
+				Generations of Trumpet Tradition
+			</h3>
+			<br>
+			<h3 class="smallerHeader">
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+			</h3>
+			<h3 class="smallerHeader">
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt  
+			</h3>
+		</td>
+		<td style="
+		border-radius: 0px 10px 10px 0px;
+		width: 50%;">
+			<img align=right src="media/namsPhoenix.jpg" alt="Dunes2016" style="
+			width: 100%;
+			height: auto;
+			border-radius: 0px 10px 10px 0px;
+			"> 
+		</td>
+	</tr>
+</table>
+</div>
+
+
+<div id="funInfo"
+style="
+padding: 0px 40px 0px 40px; position: absolute; top: 940px; height: 400px;">
+<table style="width: 100%;">
+	<tr style="height: 300px;">
+		<td style="
+		border-radius: 10px 0px 0px 10px;
+		width: 50%; 
+		/*
+		background-color: #009959;
+		*/
+		background-color: slateBlue;
+		">
+			<h3 class="smallerHeaderTitle">
+				We Love Fun
+			</h3>
+			<br>
+			<h3 class="smallerHeader">
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+			</h3>
+			<h3 class="smallerHeader">
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt  
+			</h3>
+		</td>
+		<td style="
+		border-radius: 0px 10px 10px 0px;
+		width: 50%;">
+			<img align=right src="media/namsPhoenix.jpg" alt="Dunes2016" style="
+			width: 100%;
+			height: auto;
+			border-radius: 0px 10px 10px 0px;
+			"> 
+		</td>
+	</tr>
+</table>
+</div>
+
+<div id="statsInfo"
+style="
+padding: 0px 40px 0px 40px; position: absolute; top: 940px; height: 400px;">
+<table style="width: 100%;">
+	<tr style="height: 300px;">
+		<td style="
+		border-radius: 10px 0px 0px 10px;
+		width: 50%; 
+		/*
+		background-color: #009959;
+		*/
+		background-color: purple;
+		">
+			<h3 class="smallerHeaderTitle">
+			The Numbers Don't Lie
+			</h3>
+			<br>
+			<h3 class="smallerHeader">
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+			</h3>
+			<h3 class="smallerHeader">
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt  
+			</h3>
+		</td>
+		<td style="
+		border-radius: 0px 10px 10px 0px;
+		width: 50%;">
+			<img align=right src="media/namsPhoenix.jpg" alt="Dunes2016" style="
+			width: 100%;
+			height: auto;
+			border-radius: 0px 10px 10px 0px;
+			"> 
+		</td>
+	</tr>
+</table>
+</div>
+
+<div id="playersInfo"
+style="
+padding: 0px 40px 0px 40px; position: absolute; top: 940px; height: 400px;">
+<table style="width: 100%;">
+	<tr style="height: 300px;">
+		<td style="
+		border-radius: 10px 0px 0px 10px;
+		width: 50%; 
+		/*
+		background-color: #009959;
+		*/
+		background-color: mediumAquamarine;
+		">
 			<h3 class="smallerHeaderTitle">
 			Meet the Team
 			</h3>

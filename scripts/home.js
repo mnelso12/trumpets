@@ -1,9 +1,64 @@
 jQuery(document).ready(function($){
 	console.log(
-	"Tiny bubbles In the wine Make me feel happy Ah, they make me feel fine Those tiny bubbles Make me warm all over With a feeling that I'm gonna Love you till the end of time So here's to the golden moon And here's to the silver sea And mostly here's a toast To you and me When the tiny bubbles (tiny bubbles) In the wine (in the wine) They make me feel happy (make me feel happy) Make me feel fine (make me feel fine) Those tiny bubbles (tiny bubbles) Make me warm all over (make me warm all over) With a feeling that I'm gonna (with a feeling that I'm gonna) Love you till the end of time Tiny bubbles (Oooh-a-licki) In the wine (ik-a-may-li) Make me feel happy(a-ka-oli) Ah, they make me feel fine(ik-a-ba-al-he) Those tiny bubbles Make me warm all over With a feeling that I'm gonna Love you till the end of time With a feeling that I'm gonna Love you till the end of time With a feeling that I'm gonna Love you till the end of time"); 
+	"Tiny bubbles, in my beer. It makes me happy, it makes me feel queer. Tiny bubbles, makes me warm all over. With the feeling that I'm gonna love you 'til the end of time ('til the end of time). So here's to golden boats and here's to silver seas, but most of all a toast to you and me (to you and me!). Tiny bubbles, in my wine. It makes me happy, it makes me feel fine. Tiny bubbles, make me warm all over. With the feeling that I'm gonna love you 'til the end of time ('til the end of time). So here's to golden boats, and here's to silver seas, but most of all a toast to you and me (to you and me!)."
+	);
+
+	// default is players
+	$("#funInfo").hide();
+	$("#seeUsInfo").hide();
+	$("#statsInfo").hide();
+	$("#playersInfo").show();
+
+	// hover handlers
+	$("#playersCell").hover(function(){
+		console.log('players hoveringggg');	
+		$("#statsInfo").fadeOut();
+		$("#funInfo").fadeOut();
+		$("#seeUsInfo").fadeOut();
+		$("#traditionInfo").fadeOut();
+		$("#playersInfo").fadeIn();
+	});
+	
+	$("#statsCell").hover(function(){
+		console.log("stats hovered");
+		$("#playersInfo").fadeOut();
+		$("#funInfo").fadeOut();
+		$("#seeUsInfo").fadeOut();
+		$("#traditionInfo").fadeOut();
+		$("#statsInfo").fadeIn();
+	});
+	
+	$("#funCell").hover(function(){
+		console.log("fun hovered");
+		$("#playersInfo").fadeOut();
+		$("#statsInfo").fadeOut();
+		$("#seeUsInfo").fadeOut();
+		$("#traditionInfo").fadeOut();
+		$("#funInfo").fadeIn();
+	});
+	
+	$("#traditionCell").hover(function(){
+		console.log("fun hovered");
+		$("#playersInfo").fadeOut();
+		$("#statsInfo").fadeOut();
+		$("#seeUsInfo").fadeOut();
+		$("#funInfo").fadeOut();
+		$("#traditionInfo").fadeIn();
+	});
+	
+	$("#seeUsCell").hover(function(){
+		console.log("see us hovered");
+		$("#playersInfo").fadeOut();
+		$("#funInfo").fadeOut();
+		$("#statsInfo").fadeOut();
+		$("#traditionInfo").fadeOut();
+		$("#seeUsInfo").fadeIn();
+	});
+	
+	
+	// click handlers
 	$("#homePlayersButton").click(function(){
 		console.log("players clicked");
-
 	});
 	
 	$("#homeStatsButton").click(function(){
