@@ -12,47 +12,47 @@ jQuery(document).ready(function($){
 	// hover handlers
 	$("#playersCell").hover(function(){
 		console.log('players hoveringggg');	
-		$("#statsInfo").fadeOut();
-		$("#funInfo").fadeOut();
-		$("#seeUsInfo").fadeOut();
-		$("#traditionInfo").fadeOut();
-		$("#playersInfo").fadeIn();
+		$("#statsInfo").hide();
+		$("#funInfo").hide();
+		$("#seeUsInfo").hide();
+		$("#traditionInfo").hide();
+		$("#playersInfo").show();
 	});
 	
 	$("#statsCell").hover(function(){
 		console.log("stats hovered");
-		$("#playersInfo").fadeOut();
-		$("#funInfo").fadeOut();
-		$("#seeUsInfo").fadeOut();
-		$("#traditionInfo").fadeOut();
-		$("#statsInfo").fadeIn();
+		$("#playersInfo").hide();
+		$("#funInfo").hide();
+		$("#seeUsInfo").hide();
+		$("#traditionInfo").hide();
+		$("#statsInfo").show();
 	});
 	
 	$("#funCell").hover(function(){
 		console.log("fun hovered");
-		$("#playersInfo").fadeOut();
-		$("#statsInfo").fadeOut();
-		$("#seeUsInfo").fadeOut();
-		$("#traditionInfo").fadeOut();
-		$("#funInfo").fadeIn();
+		$("#playersInfo").hide();
+		$("#statsInfo").hide();
+		$("#seeUsInfo").hide();
+		$("#traditionInfo").hide();
+		$("#funInfo").show();
 	});
 	
 	$("#traditionCell").hover(function(){
 		console.log("fun hovered");
-		$("#playersInfo").fadeOut();
-		$("#statsInfo").fadeOut();
-		$("#seeUsInfo").fadeOut();
-		$("#funInfo").fadeOut();
-		$("#traditionInfo").fadeIn();
+		$("#playersInfo").hide();
+		$("#statsInfo").hide();
+		$("#seeUsInfo").hide();
+		$("#funInfo").hide();
+		$("#traditionInfo").show();
 	});
 	
 	$("#seeUsCell").hover(function(){
 		console.log("see us hovered");
-		$("#playersInfo").fadeOut();
-		$("#funInfo").fadeOut();
-		$("#statsInfo").fadeOut();
-		$("#traditionInfo").fadeOut();
-		$("#seeUsInfo").fadeIn();
+		$("#playersInfo").hide();
+		$("#funInfo").hide();
+		$("#statsInfo").hide();
+		$("#traditionInfo").hide();
+		$("#seeUsInfo").show();
 	});
 	
 	

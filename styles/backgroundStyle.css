@@ -196,48 +196,44 @@ color: #666;
 }
 
 .homeNavBarTableCellPlayers {
-	background-color:#193b5b;
+	background-color:transparent;
 	width: 20%; 
 	height: 160px;
-	border: 2px solid;
+	border: 5px solid #32516d;
 	border-radius: 10px;
-	border-color: transparent;
 	color: #ccd3da;
 	text-align: center;
 	font-size: 28px;
 }
 
 .homeNavBarTableCellStats {
-	background-color:#193b5b;
+	background-color:transparent;
 	width: 20%; 
 	height: 160px;
-	border: 2px solid;
+	border: 5px solid #32516d;
 	border-radius: 10px;
-	border-color: transparent;
 	color: #ccd3da;
 	text-align: center;
 	font-size: 28px;
 }
 
 .homeNavBarTableCellFun {
-	background-color:#193b5b;
+	background-color:transparent;
 	width: 20%; 
 	height: 160px;
-	border: 2px solid;
+	border: 5px solid #32516d;
 	border-radius: 10px;
-	border-color: transparent;
 	color: #ccd3da;
 	text-align: center;
 	font-size: 28px;
 }
 
 .homeNavBarTableCellSeeUs {
-	background-color:#193b5b;
+	background-color:transparent;
 	width: 20%; 
 	height: 160px;
-	border: 2px solid;
+	border: 5px solid #32516d;
 	border-radius: 10px;
-	border-color: transparent;
 	color: #ccd3da;
 	text-align: center;
 	font-size: 28px;
