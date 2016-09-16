@@ -413,3 +413,23 @@ color: #666;
 	font-family: 'Lato', sans-serif;
 	font-weight: bold;
 }
+
+.meetThePlayersButton:hover {
+	padding: 10px 10px 10px 10px;
+	font-weight: normal;
+	color: #cfb53b;
+	font-size: 24px;
+	text-align: left;
+	border-radius: 10px;
+	border: 5px solid #32516d;
+}
+
+.meetThePlayersButton {
+	padding: 10px 10px 10px 10px;
+	font-weight: normal;
+	color: #cfb53b;
+	font-size: 24px;
+	text-align: left;
+	border-radius: 10px;
+	border: 5px solid transparent;
+}
