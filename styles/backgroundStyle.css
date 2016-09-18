@@ -8,6 +8,19 @@ body {
 	min-width: 750px;
 }
 
+/* Mail Links */
+a[href^="mailto"] { 
+	color: white; 
+	text-decoration: none;
+}
+
+.meetPlayersLink {
+	color: #cfb53b;
+	font-size: 32px;
+	text-decoration: none;
+}
+
+
 /* Nav Bar */
 ul {
 	list-style-type: none;
@@ -174,7 +187,8 @@ color: #666;
 .notreDameCopyright {
 	max-height: 250px;
 	font-family: 'Lato', sans-serif;
-	color: #ccd3da; 
+	/*color: #ccd3da;*/
+	color: lightSteelBlue;
 	font-size: 22px; 
 	text-align: center;
 }
@@ -397,7 +411,8 @@ color: #666;
 }
 
 .followUsText {
-	color: #ccd3da;
+	/*color: #ccd3da;*/
+	color: lightSteelBlue;
 	font-size:70px;
 	margin: 40px 40px 40px 40px;
 	vertical-align: middle;
@@ -406,7 +421,8 @@ color: #666;
 }
 
 .followUsTextSmaller {
-	color: #ccd3da;
+	/*color: #ccd3da;*/
+	color: lightSteelBlue;
 	font-size:38px;
 	margin: 40px 40px 40px 40px;
 	vertical-align: middle;
